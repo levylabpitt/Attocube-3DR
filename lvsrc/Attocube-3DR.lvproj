@@ -114,7 +114,7 @@
 		<Item Name="Attocube Main.vi" Type="VI" URL="../Attocube Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="FloatApprox.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Lockin-Multichannel/src/SubVIs/FloatApprox.vi"/>
+				<Item Name="MGI Approximately Equal.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Comparison/MGI Approximately Equal.vi"/>
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
