@@ -1,0 +1,26 @@
+<Experiment Name="ANC350 Control" ScreenX="1" ScreenY="1">
+  <Tab Name="ANC350 Scanner Axis 7" Icon="debug.xpm" Channels="User 1:User 2:User 3:User 4:User 5:User 6:USer 7:User 8:User 9">
+
+    <Widget Type="Box" Caption="Scanner Axis 7"              X="0" Y="0"  >
+		<Widget Type="Xedit"  Caption="DC Level"             Address="0x514" Index="6" Unit="V"  FixPrefix="User" Prefix=" "     X="0" Y="1"  Persist="0" Display="Float" Min="0"  Max="140" Scale="1000." Accuracy="6"/>
+		<Widget Type="Led"    Caption="Output Enable"        Address="0x447" Index="6"                                           X="0" Y="2"  Grey="-1" Green="1"   />			
+		
+		<Widget Type="Check"  Caption="DC In"                Address="0x561" Index="6"                                           X="0" Y="4"  Persist="0" />
+		<Widget Type="Check"  Caption="AC In"                Address="0x562" Index="6"                                           X="0" Y="5"  Persist="0" />
+		<Widget Type="Check"  Caption="Int"                  Address="0x563" Index="6"                                           X="0" Y="6"  Persist="0" />
+		
+		<Widget Type="ParamLoad" Caption="Load Actor Profile"           ParamIndex="6"                                           X="0" Y="7"  Width="4"  />
+		
+		
+		<Widget Type="Box" Style="Flat" X="5" Y="1" Width="1" />
+		<Widget Type="Box" Style="Flat" X="0" Y="8" Width="1" Height="10" />
+        
+    </Widget>  
+	
+	
+
+	
+	<Widget Type="Box"   Caption=""               X="0"   Y="6"  Style="Flat" Height="10" />
+	
+	</Tab>
+</Experiment>
