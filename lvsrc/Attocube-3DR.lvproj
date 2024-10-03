@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,6 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ANC350.lvlib" Type="Library" URL="../drivers/ANC350.lvlib"/>
 		<Item Name="Inst UI.Attocube-3DR.lvclass" Type="LVClass" URL="../SMOs/Inst UI.Attocube-3DR/Inst UI.Attocube-3DR.lvclass"/>
 		<Item Name="Inst.Attocube-3DR.lvclass" Type="LVClass" URL="../SMOs/Inst.Attocube-3DR/Inst.Attocube-3DR.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -605,16 +608,6 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 			</Item>
-			<Item Name="ANC350_Amplitude.vi" Type="VI" URL="../../Instrument Framework/Software_ANC350v2/Software_ANC350v2/LabView/ANC350_v1.4.42.llb/ANC350_Amplitude.vi"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="/../../Production/ELE/ELE Software/ANC350 - Heidenhain/data/hvpositionerv2.dll"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="/Attocube-3DR/Instrument Framework/Software_ANC350v2/DLL/Win32/hvpositionerv2/lib/hvpositionerv2.dll"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="../../../../04 DLL/DLL_v1447/Windows/Testbench/hvpositionerv2.dll"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="../../../../04 DLL/Windows/hvpositionerv2/lib/hvpositionerv2.dll"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="../../DLL/Win32/hvpositionerv2/lib/hvpositionerv2.dll"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="../../Instrument Framework/Software_ANC350v2/DLL/Win32/hvpositionerv2/lib/hvpositionerv2.dll"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="../hvpositionerv2.dll"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="../hvpositionerv2/lib/hvpositionerv2.dll"/>
-			<Item Name="hvpositionerv2.dll" Type="Document" URL="/Z/Production/ELE/Product Information/ANC350/03 Software and Drivers/04 DLL/Windows/hvpositionerv2/lib/hvpositionerv2.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
